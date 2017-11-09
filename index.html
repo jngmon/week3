@@ -1,0 +1,74 @@
+<html>
+<style>
+  body {
+    font-family: sans-serif;
+  }
+  span {
+    color:red;
+  }
+  .container {
+    border: 1px solid black;
+    width: 400px;
+    text-align: center;
+    height: 300px;
+    margin: auto;
+  }
+
+  .id {
+  background: url('./inputEmail.png') no-repeat left;
+  background-size: 25px;
+  padding-left: 33px;
+  height: 40px;
+    border: none;
+    border-bottom: 1px solid black;
+  }
+
+  .pwd {
+    background: url('inputPwd.png') no-repeat left;
+    background-size: 25px;
+    padding-left: 33px;
+    border: none;
+    height:40px;
+    border-bottom: 1px solid black;
+  }
+
+  .log2 {
+    width: 200px;
+    height: 40px;
+    border: 1px solid red;
+    background-color: red;
+    color:white;
+  }
+
+  .log3 {
+    width: 200px;
+    height: 40px;
+    border: 1px solid red;
+    background-color: white;
+  }
+</style>
+
+<body>
+  <div class="container">
+    <h1>PEPPER<span>PAY</span></h1>
+    <!-- 텍스트입니다.. -->
+    <div>
+      <input class="id" type="text" placeholder="이메일"></input>
+    </div>
+    <br />
+    <div>
+      <input class="pwd" type="password" placeholder="패스워드"></input>
+    </div>
+
+    <br />
+    <!-- 버튼입니다. -->
+    <div>
+      <input class="log2" type="button" value="로그인" />
+    </div>
+    <div>
+      <input class="log3" type="button" value="회원가입" />
+    </div>
+  </div>
+</body>
+
+</html>
